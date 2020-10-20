@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  font-size: 16px;
+}
+
+li, a {
+  text-decoration: none;
+}
+
+header{
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+}
+
+.header-left a{
+  margin-left: 1rem;
+}
+
+.protra-logo{
+  width: 15%;
+}
+
