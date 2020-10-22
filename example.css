@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f7;
+  
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  text-decoration: none;
+}
+
+header {
+  background-color: #F8F9FA;
+  box-shadow: 0px 4px 8px rgba(171, 171, 171, 0.25);
+  /* padding: 1rem 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1rem 8rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  margin-left: 1rem;
+}
+
+.protra-logo {
+  width: 15%;
+}
+
+.hero-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 0 8rem;
+}
+.hero-img {
+  margin-left: -3rem;
+  margin-top: -4rem;
+  width: 100%;
+  height: auto;
+}
+
+.hero-left{
+  padding-right: 2rem;
+}
+.start-project{
+  padding: 0 8rem;
+  margin-bottom: 5rem;
+}
+.start-project h3 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+button{
+  background: linear-gradient(342.84deg, #1589cb 20.49%, #2dc0ca 100.85%);
+  border: none !important;
+  font-size: 1rem;
+  color: #f7f7f7;
+  font-weight: 100;
+  margin-top: 1rem;
+  padding: .5rem;
+  border-radius: .2rem;
+}
+
+.start-project-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.start-project-card h5 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.start-project-card {
+  padding: 0 1rem;
+}
+
+.next-button {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.next-button h5 {
+  color: #1589cb;
+  padding-right: 0.5rem;
+  text-align: right;
+  font-weight: 600;
+  margin: 4rem 0;
+}
+
+/* path {
+    color: #1589cb;
+  } */
+
+.choose-us {
+  display: flex;
+  justify-content: center;
+  padding: 0 8rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.footer li {
+  text-decoration: none !important;
+}
